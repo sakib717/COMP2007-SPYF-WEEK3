@@ -135,6 +135,8 @@
     <Content Include="Assets\Images\background6.jpg" />
     <Content Include="Assets\Images\backgroundMM.jpg" />
     <Content Include="Assets\Images\logo.png" />
+    <Content Include="EuropeCup.aspx" />
+    <Content Include="EuropeCupDetails.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="MainMenu.aspx" />
@@ -148,6 +150,8 @@
       <DependentUpon>GameTrackerModel.edmx</DependentUpon>
       <LastGenOutput>GameTrackerModel.cs</LastGenOutput>
     </Content>
+    <Content Include="NorthAmericaCup.aspx" />
+    <Content Include="NorthAmericaCupDetails.aspx" />
     <Content Include="packages.config" />
     <EntityDeploy Include="Models\GameTrackerModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -236,6 +240,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EuropeCup.aspx.cs">
+      <DependentUpon>EuropeCup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EuropeCup.aspx.designer.cs">
+      <DependentUpon>EuropeCup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EuropeCupDetails.aspx.cs">
+      <DependentUpon>EuropeCupDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EuropeCupDetails.aspx.designer.cs">
+      <DependentUpon>EuropeCupDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -283,6 +301,20 @@
     </Compile>
     <Compile Include="Models\SouthAmerica.cs">
       <DependentUpon>GameTrackerModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NorthAmericaCup.aspx.cs">
+      <DependentUpon>NorthAmericaCup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NorthAmericaCup.aspx.designer.cs">
+      <DependentUpon>NorthAmericaCup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NorthAmericaCupDetails.aspx.cs">
+      <DependentUpon>NorthAmericaCupDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NorthAmericaCupDetails.aspx.designer.cs">
+      <DependentUpon>NorthAmericaCupDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>

@@ -21,9 +21,9 @@
 
                     <div class="list-group">
 
-                        <a class="list-group-item" href="EuropeanCup.aspx"><i class="fa fa-th-list"></i> European Games List</a>
+                        <a class="list-group-item" href="EuropeCup.aspx"><i class="fa fa-th-list"></i> European Games List</a>
 
-                        <a class="list-group-item" href="EuropeanCupDetails.aspx"><i class="fa fa-plus-circle"></i> Add Game</a>
+                        <a class="list-group-item" href="EuropeCupDetails.aspx"><i class="fa fa-plus-circle"></i> Add Game</a>
 
                     </div>
 
@@ -49,9 +49,9 @@
 
                     <div class="list-group">
 
-                        <a class="list-group-item" href="NorthAmericanCup.aspx"><i class="fa fa-th-list"></i> N American Games List</a>
+                        <a class="list-group-item" href="NorthAmericaCup.aspx"><i class="fa fa-th-list"></i> N American Games List</a>
 
-                        <a class="list-group-item" href="NorthAmericanCupDetails.aspx"><i class="fa fa-plus-circle"></i> Add Game</a>
+                        <a class="list-group-item" href="NorthAmericaCupDetails.aspx"><i class="fa fa-plus-circle"></i> Add Game</a>
 
                     </div>
 

@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Match Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AsianCupDetails.aspx.cs" Inherits="COMP2007_S2016_Lesson6B.AsianCupDetails" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NorthAmericaCupDetails.aspx.cs" Inherits="COMP2007_S2016_Lesson6B.NorthAmericaDetails" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
+   <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
                 <h1>Match Details</h1>
@@ -20,7 +20,7 @@
                 </div>
                  <div class="form-group">
                     <label class="control-label" for="DescriptionTextBox">Description</label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="DescriptionTextBox" placeholder="Todo Notes" required="true"></asp:TextBox>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="DescriptionTextBox" placeholder="Description" required="true"></asp:TextBox>
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="Spectators">Spectators</label>
@@ -40,4 +40,3 @@
         </div>
     </div>
 </asp:Content>
-
