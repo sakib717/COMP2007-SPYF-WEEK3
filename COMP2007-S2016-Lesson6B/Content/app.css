@@ -1,0 +1,256 @@
+﻿
+/*For Custom CSS*/
+
+
+/*****FOR ALL FONTS*****/
+
+@font-face{
+      font-family: Staubach;
+	  src: url("Staubach.ttf");
+}
+
+.background-cover { 
+        z-index: -1;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .background-cover img {
+        width: 100%;
+        opacity: 0.25;
+    }
+
+ h1{
+font-family: Staubach;
+font-size: 75px;
+ transition: all 0.3s ease 0s;
+text-shadow: 4px 4px 4px #000000;
+text-align: left;
+color: white;
+}
+h1:hover{color:blue;}
+
+ h2{
+font-family: Staubach;
+font-size: 45px;
+ transition: all 0.3s ease 0s;
+text-shadow: 4px 4px 4px #000000;
+text-align: left;
+color: white;
+}
+h2:hover{color:red;}
+
+ h3{
+font-family: Staubach;
+font-size: 45px;
+ transition: all 0.3s ease 0s;
+text-shadow: 4px 4px 4px #000000;
+text-align: left;
+color: aqua;
+}
+h3:hover{color:blue;}
+
+
+ h4{
+font-family: Staubach;
+font-size: 25px;
+text-align: left;
+text-shadow: 3px 3px 3px #000000;
+text-align: left;
+color: red;
+}
+
+ h5{
+font-family: Staubach;
+font-size: 45px;
+ transition: all 0.3s ease 0s;
+text-shadow: 4px 4px 4px #000000;
+text-align: left;
+color: white;
+}
+ h5:hover { color: red;}
+
+  h6{
+font-family: Staubach;
+font-size: 25px;
+
+text-shadow: 1px 1px 1px #000000;
+text-align: left;
+color: white;
+}
+
+
+    /*****FOR PANELS****/
+
+.btn-login {
+    background: #337ab7;
+    color: #FFFFFF;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 3px 0 0 #2e6da4;
+    border-left-color: #2e6da4;
+    border-right-color: #2e6da4;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.btn-login:hover {
+    background: red;
+    color: #FFFFFF;
+    box-shadow: 0 3px 0 0 #204d74;
+    border-left-color: #204d74;
+    border-right-color: #204d74;
+}
+
+
+
+#nav-wrapper {
+    position: relative;
+}
+
+.clearfix {
+    width: 100%;
+    display: block;
+    visibility: none;
+}
+
+
+
+#body {
+    width: 200px;
+    height: 20px;
+}
+#body hr {
+    border: 1px solid #DCDCDC;
+    position: absolute;
+    width: 100%;
+    margin-top: 215px;
+}
+
+.gridbox-3 {
+    background: white;
+    font-family: "Impact", Charcoal, sans-serif;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    border: 3px solid black;
+    height: 250px;
+    text-align: left;
+    position: relative;
+}
+
+.gridbox-3:not(:first-child) {
+    border-left: 0;
+}
+
+.gridbox-3 .btn-login {
+    position: absolute;
+    left: 1px;
+    bottom: 2px;
+    height: 29px;
+}
+
+.gridbox-3 p {
+    color: black;
+}
+
+.circle {
+    background: #FFF;
+    border: 4px solid #999;
+    border-radius: 50%;
+    font: 32px Arial, sans-serif;
+    color: #666;
+    text-align: center;
+    margin: 16px auto;
+    width: 42px;
+    height: 42px;
+}
+
+.gridpanel {
+    border-radius: 0;
+    border-width: 0 0 0 1px;
+    font: 16px Arial, sans-serif;
+    font-weight: bold;
+}
+
+/******FOR CUSTOM NAVBAR******/    
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: blue;
+}
+
+
+/****FOR TEXT BORDER****/
+
+.borderexample
+{
+border-style:solid;
+border-color:black;
+} 
+
+/**FOR SIGNUP PAGE**/
+
+body{
+    background-color: #525252;
+}
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+
+/***********************FOR DATA GRID VIEW*************************/
+
+/*gridview*/
+
+.table table  tbody  tr  td a ,
+.table table  tbody  tr  td  span {
+position: relative;
+float: left;
+padding: 6px 12px;
+margin-left: -1px;
+line-height: 1.42857143;
+color: #337ab7;
+text-decoration: solid;
+font-family: "Impact", Charcoal, sans-serif;
+background-color: #fff;
+border: 5px solid #ddd;
+}
+
+.table table > tbody > tr > td > span {
+ font-family: "Impact", Charcoal, sans-serif;
+z-index: 3;
+color: #fff;
+cursor: default;
+background-color: #337ab7;
+border-color: #337ab7;
+}
+
+.table table > tbody > tr > td:first-child > a,
+.table table > tbody > tr > td:first-child > span {
+ font-family: "Impact", Charcoal, sans-serif;
+margin-left: 0;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+
+.table table > tbody > tr > td:last-child > a,
+.table table > tbody > tr > td:last-child > span {
+ font-family: "Impact", Charcoal, sans-serif;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+
+.table table > tbody > tr > td > a:hover,
+.table   table > tbody > tr > td > span:hover,
+.table table > tbody > tr > td > a:focus,
+.table table > tbody > tr > td > span:focus {
+ font-family: "Impact", Charcoal, sans-serif;
+z-index: 2;
+color: #23527c;
+background-color: #eee;
+border-color: #ddd;
+}
+/*end gridview */
