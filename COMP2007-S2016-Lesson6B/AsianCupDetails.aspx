@@ -15,7 +15,7 @@
                     <asp:TextBox runat="server" CssClass="form-control" ID="TotalHomeTextBox" placeholder="TotalHome" required="true"></asp:TextBox>
                 </div>
                  <div class="form-group">
-                    <label class="control-label" for="TotalAwayTextBox">TotalAway</label>
+                    <label class="control-label" for="TotalAwayTextBox">TotalAwa</label>
                     <asp:TextBox runat="server" CssClass="form-control" ID="TotalAwayTextBox" placeholder="TotalAway" required="true"></asp:TextBox>
                 </div>
                  <div class="form-group">
