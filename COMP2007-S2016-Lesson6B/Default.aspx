@@ -26,7 +26,7 @@
                     <h3>Guest User</h3>
                     <hr>
                     <p>Don't have an account but want to track games?</p>
-                    <a id="TrackButton" class="btn btn-login btn-md col-sm-11" href="guesttrack.aspx" role="button">Track Games!</a>
+                    <a id="TrackButton" class="btn btn-login btn-md col-sm-11" href="MainMenu.aspx" role="button">Track Games!</a>
                 </div>
                 <div class="col-md-4 col-centered col-max gridbox-3">
                     <h3>Login</h3>
