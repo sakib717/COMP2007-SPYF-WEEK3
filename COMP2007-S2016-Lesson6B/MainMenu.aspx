@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Contoso Menu" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MainMenu.aspx.cs" Inherits="COMP2007_S2016_Lesson6B.MainMenu" %>
+﻿<%@ Page Title="SPYF DashBoard" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MainMenu.aspx.cs" Inherits="COMP2007_S2016_Lesson6B.MainMenu" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
      <style>
@@ -49,9 +49,9 @@
 
                     <div class="list-group">
 
-                        <a class="list-group-item" href="NorthAmericaCup.aspx"><i class="fa fa-th-list"></i> N American Games List</a>
+                        <a class="list-group-item" href="NorthAmerica.aspx"><i class="fa fa-th-list"></i> N American Games List</a>
 
-                        <a class="list-group-item" href="NorthAmericaCupDetails.aspx"><i class="fa fa-plus-circle"></i> Add Game</a>
+                        <a class="list-group-item" href="NorthAmericaDetails.aspx"><i class="fa fa-plus-circle"></i> Add Game</a>
 
                     </div>
 
